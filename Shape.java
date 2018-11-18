@@ -5,7 +5,7 @@ import java.awt.Point;
  * @author Arfah
  *
  */
-public class Shape
+public abstract class Shape implements Drawable
 {
     protected Point[] location;
     private Color color;
